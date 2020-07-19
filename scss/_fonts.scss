@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Neo Sans Pro Cyr";
+  src: url("../fonts/NeoSansProCyr-Regular.woff2") format("woff2"),
+    url("../fonts/NeoSansProCyr-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neo Sans Pro Cyr";
+  src: url("../fonts/NeoSansProCyr-Italic.woff2") format("woff2"),
+    url("../fonts/NeoSansProCyr-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neo Sans Pro Cyr";
+  src: url("../fonts/NeoSansProCyr-Bold.woff2") format("woff2"), url("../fonts/NeoSansProCyr-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neo Sans Pro Cyr";
+  src: url("../fonts/NeoSansProCyr-LightItalic.woff2") format("woff2"),
+    url("../fonts/NeoSansProCyr-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neo Sans Pro Cyr";
+  src: url("../fonts/NeoSansProCyr-Regular.woff2") format("woff2"),
+    url("../fonts/NeoSansProCyr-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?bqcbno');
+  src:  url('../fonts/icomoon.eot?bqcbno#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?bqcbno') format('truetype'),
+    url('../fonts/icomoon.woff?bqcbno') format('woff'),
+    url('../fonts/icomoon.svg?bqcbno#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-arrow-up:before {
+  content: "\f062";
+}

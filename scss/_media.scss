@@ -1,0 +1,249 @@
+@media (max-width: 1300px) {
+  .future__link-img img {
+    width: 350px;
+  }
+}
+@media (max-width: 1100px) {
+  .future__link-img {
+    display: none;
+  }
+  .future__inner {
+    display: block;
+  }
+  .start__right-img img {
+    width: 430px;
+  }
+}
+@media (max-width: 950px) {
+  .about__title::after {
+    right: 100px;
+    top: 100px;
+    width: 110px;
+    height: 388px;
+    background-size: cover;
+  }
+  .start__right-img img {
+    width: 385px;
+  }
+  .start__left-info .info-item {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .start__left-info .info-item + .info-item {
+    margin-left: 0;
+  }
+}
+@media (max-width: 820px) {
+  .header__img img {
+    width: 400px;
+  }
+  .about__text {
+    max-width: 450px;
+  }
+  .start__right {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .start__right-img img {
+    width: 300px;
+  }
+}
+@media (max-width: 750px) {
+  .future__item {
+    width: 100%;
+    padding-left: 75px;
+  }
+  .online__items {
+    display: block;
+    .online__item {
+      min-width: 100%;
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
+  }
+  .online {
+    padding: 50px 0;
+  }
+  .online__title {
+    margin-bottom: 45px;
+  }
+  .online__item-img {
+    margin-bottom: 20px;
+  }
+  .programs__inner {
+    column-count: 1;
+    margin-left: 10px;
+  }
+  .programs__list li {
+    margin-bottom: 9px;
+  }
+  .programs__list {
+    height: 500px;
+    overflow-y: hidden;
+  }
+  .programs {
+    padding: 50px 0;
+  }
+  .programs__title {
+    margin-bottom: 45px;
+  }
+  .about {
+    padding: 20px 0;
+  }
+  .about__title {
+    margin-bottom: 45px;
+  }
+  .start {
+    padding: 40px 0;
+  }
+  .readmore-link {
+    display: block;
+  }
+  .about__text-hidden{
+    display: none;
+  }
+}
+@media (max-width: 690px) {
+  .about__text {
+    max-width: 350px;
+  }
+  .about__title::after {
+    right: 50px;
+    top: 90px;
+    width: 102px;
+    height: 360px;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+  .footer__wrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .footer__wrapper > div {
+    margin-bottom: 45px;
+  }
+  .item__up {
+    margin-top: 0;
+  }
+}
+@media (max-width: 620px) {
+  .start__wrapper {
+    display: block;
+  }
+  .call {
+    padding: 55px 0;
+  }
+  .contacts {
+    padding: 55px 0;
+  }
+  .gift {
+    padding: 55px 0;
+  }
+  .connection {
+    padding: 55px 0;
+  }
+}
+@media (max-width: 550px) {
+  .header {
+    padding-top: 40px;
+    background-size: cover;
+  }
+  .header__menu-btn {
+    display: block;
+    margin-bottom: 22px;
+  }
+  .header__menu {
+    .menu__list {
+      display: none;
+      width: 100%;
+      margin-bottom: 22px;
+      background-color: #fff;
+      padding: 30px 5px 30px 22px;
+      &-item {
+        display: block;
+        text-align: left;
+        margin-left: 0;
+      }
+      .menu__list-item + .menu__list-item {
+        margin-top: 20px;
+      }
+      &-link {
+        color: #000;
+      }
+    }
+  }
+  .about__text {
+    max-width: 250px;
+  }
+  .about__title::after {
+    right: 55px;
+  }
+  .header-page {
+    padding-top: 30px;
+    padding-bottom: 11px;
+  }
+}
+@media (max-width: 500px) {
+  .header__inner-title,
+  .title {
+    font-size: 30px;
+  }
+  .header__inner-subtitle {
+    font-size: 18px;
+  }
+  .header__img {
+    margin-top: 50px;
+    img {
+      width: 280px;
+    }
+  }
+  .programs__inner {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 440px) {
+  .about__text {
+    max-width: 170px;
+  }
+  .about__title::after {
+    right: 20px;
+    top: 90px;
+    width: 102px;
+    height: 360px;
+  }
+  .future__item {
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .future__item::before {
+    left: 43%;
+  }
+}
+@media (max-width: 380px) {
+  .future__item::before {
+    left: 41%;
+  }
+  .future__item + .future__item {
+    margin-top: 30px;
+  }
+  .start__right-img img {
+    width: 280px;
+  }
+  .start__right {
+    width: 280px;
+    margin-top: 30px;
+  }
+  .call__form {
+    padding: 0 10px;
+  }
+  .gift__form {
+    padding: 0 10px;
+  }
+  .connection__form {
+    padding: 0 10px;
+  }
+}

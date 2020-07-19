@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: "Neo Sans Pro Cyr";
+  color: #000;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+}
+.start__link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ffc400;
+  padding: 19px 37px 20px;
+  border-radius: 10px;
+}
+.free__link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ec1192;
+  padding: 14px 55px 15px;
+  border-radius: 12px;
+}
+.input {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  padding: 14px 13px;
+  border: 2px solid #130540;
+  border-radius: 12px;
+  outline: none;
+  font-size: 14.5px;
+}
+.send-btn {
+  width: 100%;
+  border-radius: 12px;
+  padding: 15px 10px;
+  background-color: #130540;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
